@@ -10,8 +10,7 @@ import {
   HelpRequestCreatePayload
 } from '../types';
 
-const API_BASE = 'http://localhost:8000/api/v1';
-
+const API_BASE = 'https://digisaksham-api-8sp3.onrender.com/api/v1';
 // Seed demo users for fallback / resilient presentation
 const DEMO_ADMIN_USER: User = {
   id: 1,
